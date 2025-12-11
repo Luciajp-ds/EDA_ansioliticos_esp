@@ -57,12 +57,12 @@ EDA_Ansioliticos_España/
 ├── main.ipynb → Notebook final con el EDA limpio y ordenado
 ├── Memoria.pdf → Informe técnico con el análisis completo
 ├── Presentacion.pdf → Diapositivas utilizadas en la presentación
-│
+├── requirements.txt → Librerías necesarias para la reproducción
 └── src/
-├── data/ → Datos (muestras, CSV, etc.)
-├── img/ → Gráficos exportados e imágenes
-├── notebooks/ → Notebooks de desarrollo (borradores)
-└── utils/ → Funciones auxiliares (scripts .py)
+   ├── data/ → Datos (muestras, CSV, etc.)
+   ├── img/ → Gráficos exportados e imágenes
+   ├── notebooks/ → Notebooks de desarrollo (borradores)
+   └── utils/ → Funciones auxiliares (scripts .py)
 
 
 ---
