@@ -1,10 +1,13 @@
 
 **1. INTRODUCCIÓN**
+
 El consumo de drogas es un fenómeno global que plantea desafíos de salud pública, con repercusiones económicas y sociales. La expansión del uso de sustancias psicoactivas entre la población juvenil y adulta joven ha generado preocupación debido a su impacto en la salud física y mental (Jongenelis et al., 2019; Martínez, Rodríguez & Vinces, 2019; Arteaga-Lozada & Plaza-Macías, 2021; Kendler et al., 2017). En este sentido, comprender los patrones de consumo entre países, género y grupos de edad es fundamental para desarrollar estrategias efectivas de prevención y tratamiento. Además, identificar los factores que influyen en la iniciación y mantenimiento del consumo permite orientar políticas públicas basadas en evidencia (Jongenelis et al., 2019; Martínez, Rodríguez & Vinces, 2019; Arteaga-Lozada & Plaza-Macías, 2021; Kendler et al., 2017).
 
 Por ello, este EDA se focaliza en estudiar el consumo de estupefacientes en Europa, utilizando un dataset que permite examinar la prevalencia por sustancia, país, edad y género.
 
+
 ---
+
 
 **2. ANÁLISIS EXPLORATORIO Y TEMA ESCOGIDO: EL CONSUMO DE ESTUPEFACIENTES EN EUROPA**
 
@@ -23,17 +26,22 @@ Concretamente, se busca caracterizar los patrones de consumo, así como identifi
 - Prevalencia y diferencias por edad
 - Prevalencia del tipo de sustancia por país
 
+
 ---
 
 
 **3. JUSTIFICACIÓN**
+
 El estudio del consumo de estupefacientes es relevante debido a que el mismo constituye un problema social y sanitario de creciente relevancia. El estudio del consumo de estupefacientes en Europa es fundamental para poder planificar políticas de prevención y salud pública, así como reducir los riesgos y consecuencias vinculados a su uso. Por ello, es imprescindible comprender las inferencias de consumo por edad, género y país ya que ello permite identificar grupos vulnerables, la prevalencia de los tipos de psicotrópicos y, así, priorizar los recursos (Jongenelis et al., 2019; Parrales-Pincay et al., 2023).
 
 Entender estos patrones es imprescindible para poder orientar políticas sanitarias, así como diseñar estrategias preventivas. Por lo anterior, se justifica la elaboración de un análisis que nos permita estudiar la prevalencia, así como la distribución de su consumo de Europa a partir de diversas fuentes oficiales.
 
+
 ---
 
+
 **4. OBJETIVOS**
+
 Por todo lo anteriormente mencionao, el objetivo principal de este EDA es analizar los patrones de consumo de estupefacientes en la población europea, identificando tendenciais y diferencias por país, sustancias, edad y género.
 
 Como **objetivos específicos** podemos destacar:
@@ -42,9 +50,12 @@ Como **objetivos específicos** podemos destacar:
 - Analizar diferencias de consumo según género y rango de edad
 - Identificar qué sustancias tienen mayor prevalencia y en qué grupos poblacionales
 
+
 ---
 
+
 **5. HIPÓTESIS**
+
 *H1. Los hombres consumen más estupefacientes que las mujeres en todos los grupos de edad*
 
 *H2. Los jóvenes de 15-34 años tienen mayor prevalencia de consumo que los grupos poblacionales mayores*
@@ -92,17 +103,28 @@ Como **objetivos específicos** podemos destacar:
 
 ## 📂 8. ESTRUCTURA DEL REPOSITORIO
 
+
 EDA_Ansioliticos_España/
 │
+
 ├── README.md → Documentación del proyecto
+
 ├── main.ipynb → Notebook final con el EDA limpio y ordenado
+
 ├── Memoria.pdf → Informe técnico con el análisis completo
+
 ├── Presentacion.pdf → Diapositivas utilizadas en la presentación
+
 ├── requirements.txt → Librerías necesarias para la reproducción
+
 └── src/
+
    ├── data/ → Datos (muestras, CSV, etc.)
+   
    ├── img/ → Gráficos exportados e imágenes
+   
    ├── notebooks/ → Notebooks de desarrollo (borradores)
+   
    └── utils/ → Funciones auxiliares (scripts .py)
 
 
