@@ -73,7 +73,10 @@ Aquí la junto con la hipótesis 3
 📌 Problema: interpretación correcta de indicadores.
 
 
+
+
 **Hipótesis anteriores:::** 
+
 *H1. Los hombres consumen más estupefacientes que las mujeres en todos los grupos de edad*
 
 📌 Problema: Analizar si todas las drogas presentan la misma brecha de género y de edad
