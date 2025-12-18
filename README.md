@@ -118,13 +118,9 @@ EDA_Ansioliticos_España/
 ├── requirements.txt → Librerías necesarias para la reproducción
 
 └── src/
-
    ├── data/ → Datos (muestras, CSV, etc.)
-   
    ├── img/ → Gráficos exportados e imágenes
-   
    ├── notebooks/ → Notebooks de desarrollo (borradores)
-   
    └── utils/ → Funciones auxiliares (scripts .py)
 
 
