@@ -1,3 +1,19 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import numpy as np
+from scipy import stats
+from scipy.stats import chi2_contingency
+from scipy.stats import mannwhitneyu
+from IPython.display import display
+from statsmodels.multivariate.manova import MANOVA
+import statsmodels.api as sm
+from statsmodels.formula.api import ols
+from scipy.stats import f_oneway
+import itertools
+import os
+
+
 # Función que calcula la cardinalidad y el tipo de variable
 def cardinalidad(df_in, umbral_categoria = 10, umbral_continua = 30):
 
@@ -200,6 +216,7 @@ def plot_categorical_relationship_fin(df, cat_col1, cat_col2, relative_freq=Fals
         plt.show()
 
 def grafico_dispersion_con_correlacion(df, columna_x, columna_y, tamano_puntos=50, mostrar_correlacion=False):
+
     """
     Crea un diagrama de dispersión entre dos columnas y opcionalmente muestra la correlación.
 
@@ -224,3 +241,17 @@ def grafico_dispersion_con_correlacion(df, columna_x, columna_y, tamano_puntos=5
     plt.ylabel(columna_y)
     plt.grid(True)
     plt.show()
+
+def guardar_figura(nombre_archivo, carpeta="src/img", dpi=300):
+    """
+    Guarda la figura actual en la carpeta indicada.
+
+    Parámetros:
+    - nombre_archivo (str): nombre del archivo sin extensión
+    - carpeta (str): ruta donde guardar la imagen
+    - dpi (int): resolución de la imagen
+    """
+    os.makedirs(carpeta, exist_ok=True)
+    ruta = os.path.join(carpeta, f"{nombre_archivo}.png")
+    plt.savefig(ruta, dpi=dpi, bbox_inches="tight")
+    plt.close()
