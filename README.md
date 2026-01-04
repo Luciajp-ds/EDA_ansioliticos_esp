@@ -92,9 +92,18 @@ jupyter notebook main.ipynb
 ## **6. PRINCIPALES CONCLUSIONES**
 
 De forma preliminar, el EDA permite observar:
-Diferencias claras de consumo según género.
-Variaciones significativas entre países europeos.
-Distintos patrones de consumo según edad y tipo de sustancia.
+
+El consumo de estupefacientes en Europa presenta una alta variabilidad, tanto entre países como entre grupos sociodemográficos, lo que refleja la existencia de patrones de consumo heterogéneos.
+
+De forma consistente, los hombres muestran una mayor prevalencia de consumo que las mujeres, independientemente del grupo de edad o del tipo de sustancia analizada, lo que respalda la hipótesis H1.
+
+Los jóvenes adultos (15-34 años) presentan mayores niveles de consumo de sustancias ilegales, especialmente cannabis, en comparación con el grupo de adultos de 15 a 64 años.
+
+El alcohol y el tabaco son las sustancias con mayor prevalencia en todos los países analizados, aunque su intensidad varía notablemente entre contextos nacionales.
+
+Existen diferencias claras entre países europeos en los patrones de consumo, tanto para sustancias legales como ilegales, lo que confirma la hipótesis H2 y pone de manifiesto la influencia del contexto geográfico y cultural.
+
+El análisis multivariante evidencia que los patrones de consumo están condicionados por una combinación de factores individuales (sexo y edad) y contextuales (país y tipo de sustancia), reforzando la necesidad de enfoques diferenciados en el diseño de políticas de prevención.
 
 
 ## **7. AUTORES**
